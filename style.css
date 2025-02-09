@@ -1,0 +1,120 @@
+/* Importer une police depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --color-900: #1f314f;
+  --color-500: #68777d;
+  --color-300: #d5e1ef;
+  --color-white: #ffffff;
+  --space-500: 40px;
+  --space-300: 24px;
+  --space-200: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.color-900 {
+  color: var(--color-900);
+}
+.background-900 {
+  background-color: var(--color-900);
+}
+.color-500 {
+  color: var(--color-500);
+}
+.background-500 {
+  background: var(--color-500);
+}
+.color-300 {
+  color: var(--color-300);
+}
+.background-300 {
+  background: var(--color-300);
+}
+.background-white {
+  background-color: var(--color-white);
+}
+
+.text-bold {
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+.text-regular {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.space-500 {
+  padding: var(--space-500);
+}
+.space-300 {
+  padding: var(--space-300);
+}
+.space-200 {
+  padding: var(--space-200);
+}
+
+.padding-all-200 {
+  padding: var(--space-200);
+}
+
+.padding-l-r-200 {
+  padding-left: var(--space-200);
+  padding-right: var(--space-200);
+}
+
+.padding-b-200 {
+  padding-bottom: var(--space-200);
+}
+
+.padding-t-300 {
+  padding-top: var(--space-300);
+}
+.padding-t-200 {
+  padding-top: var(--space-200);
+}
+
+.padding-b-500 {
+  padding-bottom: var(--space-500);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.qr-code {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code > img {
+  border-radius: 10px;
+  width: 288px;
+}
+
+.qr-code > figcaption {
+  width: 288px;
+}
